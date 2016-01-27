@@ -32,4 +32,16 @@ void main() {
   test('.toString() returns a string representation', () {
     expect(new EmailAddress('foo@bar.baz').toString(), equals('foo@bar.baz'));
   });
+
+  test('the operator [] gives access to the characters', () {
+    EmailAddress email = new EmailAddress('foo@bar');
+
+    expect(email[0], 'f');
+    expect(email[1], 'o');
+    expect(email[2], 'o');
+    expect(email[3], '@');
+    expect(email[4], 'b');
+    expect(email[5], 'a');
+    expect(email[6], 'r');
+  });
 }

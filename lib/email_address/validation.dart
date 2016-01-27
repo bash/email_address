@@ -1,4 +1,4 @@
-/**
+/*
  * (c) 2015 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
  */
 
