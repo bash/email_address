@@ -4,7 +4,7 @@
 
 library email_address_test;
 
-import 'package:email-address/email_address.dart';
+import 'package:email_address/email_address.dart';
 import 'package:test/test.dart';
 
 
