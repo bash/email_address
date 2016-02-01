@@ -1,5 +1,5 @@
-/**
- * (c) 2015 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
+/*
+ * (c) 2016 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
  */
 
 library email_address_test;
@@ -10,7 +10,7 @@ import 'package:test/test.dart';
 
 void main() {
   test('new EmailAddress() throws an error for invalid emails', () {
-    expect(() => new EmailAddress('foo'), throwsA(new isInstanceOf<InvalidEmailAddressException>()));
+    expect(() => new EmailAddress('foo'), throwsA(new isInstanceOf<InvalidEmailAddressError>()));
   });
 
   test('.length returns the length', () {

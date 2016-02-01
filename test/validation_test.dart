@@ -1,5 +1,5 @@
-/**
- * (c) 2015 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
+/*
+ * (c) 2016 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
  */
 
 library email_address_test;

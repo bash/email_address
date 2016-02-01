@@ -6,4 +6,4 @@ library email_address;
 
 part "email_address/validation.dart";
 part "email_address/email_address.dart";
-part "email_address/invalid_email_address_exception.dart";
+part "email_address/invalid_email_address_error.dart";

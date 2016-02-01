@@ -1,5 +1,5 @@
 /*
- * (c) 2015 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
+ * (c) 2016 Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
  */
 
 part of email_address;
@@ -9,7 +9,7 @@ class EmailAddress {
 
   EmailAddress(String email_address) {
     if (!isValid(email_address)) {
-      throw new InvalidEmailAddressException("Invalid email address");
+      throw new InvalidEmailAddressError("Invalid email address");
     }
 
     this._email_address = email_address;
