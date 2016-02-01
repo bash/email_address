@@ -1,4 +1,4 @@
-# email-address
+# email_address
 
 [![Build Status](https://travis-ci.org/bash/email_address.svg?branch=master)](https://travis-ci.org/bash/email_address)
 
