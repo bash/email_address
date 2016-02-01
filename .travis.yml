@@ -2,3 +2,7 @@ language: dart
 dart:
 - stable
 - dev
+
+cache:
+  directories:
+  - packages
