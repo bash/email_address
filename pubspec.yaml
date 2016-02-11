@@ -1,8 +1,8 @@
 name: 'email_address'
-version: 0.0.1
+version: '0.0.1'
 description: An email address value object for dart
-author: Ruben Schmidmeister <ruben.schmidmeister@icloud.com>
-homepage: https://github.com/bash/email-address
+author: 'Ruben Schmidmeister <ruben.schmidmeister@icloud.com>'
+homepage: 'https://github.com/bash/email_address'
 
 environment:
   sdk: '>=1.0.0 <2.0.0'
